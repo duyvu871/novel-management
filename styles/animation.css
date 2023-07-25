@@ -1,0 +1,21 @@
+.to-left {
+    transition: 0.5s all cubic-bezier(0.24, 0, 0, 0.85);
+}
+
+.fade-enter {
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 400ms;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 400ms;
+  }
